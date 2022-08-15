@@ -1,0 +1,5 @@
+.gh-content a {
+    color: var(--ghost-accent-color);
+    text-decoration: none !important;
+    word-break: break-word;
+}
