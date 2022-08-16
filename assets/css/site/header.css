@@ -13,3 +13,7 @@
 .gh-head-menu {
     font-weight: 600;
 }
+
+.gh-head-logo img {
+    max-height: 100px;
+}
