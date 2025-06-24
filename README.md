@@ -15,10 +15,10 @@ Styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need 
 
 ```bash
 # Install
-yarn
+npm install
 
 # Run build & watch for changes
-yarn dev
+npm run dev
 ```
 
 Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/` automatically.
@@ -26,7 +26,7 @@ Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/
 The `zip` Gulp task packages the theme files into `dist/alto.zip`, which you can then upload to your site.
 
 ```bash
-yarn zip
+npm run zip
 ```
 
 # Contribution
